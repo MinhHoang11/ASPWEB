@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitap003\\baitap003\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|solutionrelative:baitap003\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitap003\\baitap003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|solutionrelative:baitap003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitap003\\baitap003\\views\\nhomcontrollers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|solutionrelative:baitap003\\views\\nhomcontrollers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitap003\\baitap003\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|solutionrelative:baitap003\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitap003\\baitap003\\controllers\\nhomcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEBCED4-4D14-459E-8B13-C45453C81681}|BaiTap003\\BaiTap003.csproj|solutionrelative:baitap003\\controllers\\nhomcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\BaiTap003\\Program.cs",
+              "RelativeDocumentMoniker": "BaiTap003\\Program.cs",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\BaiTap003\\Program.cs",
+              "RelativeToolTip": "BaiTap003\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T08:11:18.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\BaiTap003\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BaiTap003\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\BaiTap003\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BaiTap003\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T08:10:37.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\Baitap003\\BaiTap003\\Views\\NhomControllers\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap003\\Views\\NhomControllers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\Baitap003\\BaiTap003\\Views\\NhomControllers\\Index.cshtml",
+              "RelativeToolTip": "BaiTap003\\Views\\NhomControllers\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T08:09:57.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhomControllers.cs",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\BaiTap003\\Controllers\\NhomControllers.cs",
+              "RelativeDocumentMoniker": "BaiTap003\\Controllers\\NhomControllers.cs",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\BaiTap003\\Controllers\\NhomControllers.cs",
+              "RelativeToolTip": "BaiTap003\\Controllers\\NhomControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T08:09:33.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\BaiTap003\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap003\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTap003\\BaiTap003\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BaiTap003\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T07:47:15.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
