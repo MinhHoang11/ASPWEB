@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
 
@@ -21,7 +22,17 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "default",
+    name: "Trang-Chu",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=TheLoai}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "the-loai",
+    pattern: "the-loai/{action=Index}/{id?}",
+    defaults: new { controller = "TheLoai", action = "Index" });
+
 
 app.Run();
