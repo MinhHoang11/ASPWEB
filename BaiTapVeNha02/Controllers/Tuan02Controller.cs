@@ -6,8 +6,8 @@ namespace BaiTapVeNha02.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.HoTen = "Luong Duong Thanh Dat";
-            ViewBag.MSSV = "1822040268";
+            ViewBag.HoTen = "Phan Minh Hoang";
+            ViewBag.MSSV = "1822040473";
             ViewBag.Nam = 2024;
 
             return View();
