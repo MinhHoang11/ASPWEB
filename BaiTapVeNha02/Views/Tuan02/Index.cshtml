@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}@{
+    ViewBag.Title = "Thông tin sinh viên";
+}
+
+<header>
+    <h2>Thông tin sinh viên</h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li>@ViewBag.HoTen</li>
+            <li>@ViewBag.MSSV</li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1> Gioi Thieu Ban Than</h1>
+
+    </article>
+</section>
+
+<footer>
+    <p>Copyright &copy: @ViewBag.HoTen - @ViewBag.Nam </p>
+</footer>
