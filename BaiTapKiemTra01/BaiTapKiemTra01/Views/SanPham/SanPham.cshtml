@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "SanPham";
+}
+@model SanPhamViewModel
+<div class="container">
+    <h1>@Model.TenSanPham</h1>
+    <p>Giá: @Model.GiaBan</p>
+    <img src="@Model.AnhMoTa" alt="Mô tả sản phẩm" style=" width: 400px" />
+</div>
+

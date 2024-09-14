@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\views\\taikhoan\\\u0111angky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\taikhoan\\\u0111angky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\models\\sanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\models\\sanphamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\models\\taikhoanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\models\\taikhoanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dohoa\\Downloads\\ViewDetailProductController.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dohoa\\Downloads\\ViewIndexCartController.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dohoa\\Desktop\\picstudio-html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\baitapkiemtra01.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\baitapkiemtra01.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SanPhamViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
+              "RelativeToolTip": "BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:37:26.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaiKhoanViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Models\\TaiKhoanViewModel.cs",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Models\\TaiKhoanViewModel.cs",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Models\\TaiKhoanViewModel.cs",
+              "RelativeToolTip": "BaiTapKiemTra01\\Models\\TaiKhoanViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:37:23.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u0110angKy.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\TaiKhoan\\\u0110angKy.cshtml",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\TaiKhoan\\\u0110angKy.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\TaiKhoan\\\u0110angKy.cshtml",
+              "RelativeToolTip": "BaiTapKiemTra01\\Views\\TaiKhoan\\\u0110angKy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:32:16.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\dohoa\\Desktop\\picstudio-html\\index.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\picstudio-html\\index.html",
+              "ToolTip": "C:\\Users\\dohoa\\Desktop\\picstudio-html\\index.html",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\picstudio-html\\index.html",
+              "ViewState": "AgIAAPoBAAAAAAAAAAAgwCQCAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-14T08:27:35.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewIndexCartController.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\Downloads\\ViewIndexCartController.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\ViewIndexCartController.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\Downloads\\ViewIndexCartController.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\ViewIndexCartController.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAkwIwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:19:18.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewDetailProductController.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\Downloads\\ViewDetailProductController.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\ViewDetailProductController.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\Downloads\\ViewDetailProductController.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\ViewDetailProductController.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAkwKwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:17:26.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BaiTapKiemTra01\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:17:03.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BaiTapKiemTra01\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:04:48.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BaiTapKiemTra01\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T08:04:43.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BaiTapKiemTra01\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwDsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:38:29.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BaiTapKiemTra01\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:35:13.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Program.cs",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\Program.cs",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Program.cs",
+              "RelativeToolTip": "BaiTapKiemTra01\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:21:15.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaiTapKiemTra01",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\BaiTapKiemTra01.csproj",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\BaiTapKiemTra01.csproj",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\BaiTapKiemTra01.csproj",
+              "RelativeToolTip": "BaiTapKiemTra01\\BaiTapKiemTra01.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T07:21:11.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\.gitignore",
+              "RelativeDocumentMoniker": "BaiTapKiemTra01\\.gitignore",
+              "ToolTip": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\.gitignore",
+              "RelativeToolTip": "BaiTapKiemTra01\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-09-14T07:19:41.715Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
