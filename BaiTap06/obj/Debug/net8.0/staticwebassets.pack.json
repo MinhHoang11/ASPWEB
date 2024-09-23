@@ -1,0 +1,557 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BaiTap06.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BaiTap06.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\slick-theme.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\slick-theme.min.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\slick.min.css",
+      "PackagePath": "staticwebassets\\css\\slick.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\templatemo.css",
+      "PackagePath": "staticwebassets\\css\\templatemo.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\css\\templatemo.min.css",
+      "PackagePath": "staticwebassets\\css\\templatemo.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\about-hero.svg",
+      "PackagePath": "staticwebassets\\img\\about-hero.svg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\img\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\banner_img_01.jpg",
+      "PackagePath": "staticwebassets\\img\\banner_img_01.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\banner_img_02.jpg",
+      "PackagePath": "staticwebassets\\img\\banner_img_02.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\banner_img_03.jpg",
+      "PackagePath": "staticwebassets\\img\\banner_img_03.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\brand_01.png",
+      "PackagePath": "staticwebassets\\img\\brand_01.png"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\brand_02.png",
+      "PackagePath": "staticwebassets\\img\\brand_02.png"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\brand_03.png",
+      "PackagePath": "staticwebassets\\img\\brand_03.png"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\brand_04.png",
+      "PackagePath": "staticwebassets\\img\\brand_04.png"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\category_img_01.jpg",
+      "PackagePath": "staticwebassets\\img\\category_img_01.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\category_img_02.jpg",
+      "PackagePath": "staticwebassets\\img\\category_img_02.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\category_img_03.jpg",
+      "PackagePath": "staticwebassets\\img\\category_img_03.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\feature_prod_01.jpg",
+      "PackagePath": "staticwebassets\\img\\feature_prod_01.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\feature_prod_02.jpg",
+      "PackagePath": "staticwebassets\\img\\feature_prod_02.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\feature_prod_03.jpg",
+      "PackagePath": "staticwebassets\\img\\feature_prod_03.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_01.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_01.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_02.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_02.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_03.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_03.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_04.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_04.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_05.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_05.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_06.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_06.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_07.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_07.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_08.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_08.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_09.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_09.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\product_single_10.jpg",
+      "PackagePath": "staticwebassets\\img\\product_single_10.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_01.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_01.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_02.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_02.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_03.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_03.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_04.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_04.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_05.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_05.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_06.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_06.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_07.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_07.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_08.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_08.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_09.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_09.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_10.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_10.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\img\\shop_11.jpg",
+      "PackagePath": "staticwebassets\\img\\shop_11.jpg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\js\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\js\\templatemo.js",
+      "PackagePath": "staticwebassets\\js\\templatemo.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\js\\templatemo.min.js",
+      "PackagePath": "staticwebassets\\js\\templatemo.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\slick.eot",
+      "PackagePath": "staticwebassets\\webfonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\slick.svg",
+      "PackagePath": "staticwebassets\\webfonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\NoName\\asp_wed\\BaiTap06\\wwwroot\\webfonts\\slick.woff",
+      "PackagePath": "staticwebassets\\webfonts\\slick.woff"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BaiTap06.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BaiTap06.props",
+      "PackagePath": "build\\BaiTap06.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BaiTap06.props",
+      "PackagePath": "buildMultiTargeting\\BaiTap06.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BaiTap06.props",
+      "PackagePath": "buildTransitive\\BaiTap06.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
