@@ -1,0 +1,42 @@
+﻿@model BaiKiemTra02.Models.LopHoc
+
+<h2>Chi tiết lớp học</h2>
+
+<div>
+    <h4>Lớp học</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Id
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Id
+        </dd>
+        <dt class="col-sm-2">
+            Tên Lớp Học
+        </dt>
+        <dd class="col-sm-10">
+            @Model.TenLopHoc
+        </dd>
+        <dt class="col-sm-2">
+            Năm Nhập Học
+        </dt>
+        <dd class="col-sm-10">
+            @Model.NamNhapHoc
+        </dd>
+        <dt class="col-sm-2">
+            Năm Ra Trường
+        </dt>
+        <dd class="col-sm-10">
+            @Model.NamRaTruong
+        </dd>
+        <dt class="col-sm-2">
+            Số Lượng Sinh Viên
+        </dt>
+        <dd class="col-sm-10">
+            @Model.SoLuongSinhVien
+        </dd>
+    </dl>
+</div>
+
+<a asp-action="ChiTiet">Trở về danh sách</a>

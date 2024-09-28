@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\views\\taikhoan\\\u0111angky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\taikhoan\\\u0111angky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -40,10 +44,6 @@
       "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|c:\\users\\dohoa\\source\\repos\\aspweb\\aspweb\\baitapkiemtra01\\baitapkiemtra01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B2CA00-7581-4CFA-B410-29B2E619FA45}|BaiTapKiemTra01\\BaiTapKiemTra01.csproj|solutionrelative:baitapkiemtra01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,7 +63,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SanPhamViewModel.cs",
               "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
@@ -79,12 +79,11 @@
               "RelativeToolTip": "BaiTapKiemTra01\\Models\\SanPhamViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T08:37:26.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T08:37:26.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TaiKhoanViewModel.cs",
               "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Models\\TaiKhoanViewModel.cs",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Models\\TaiKhoanViewModel.cs",
@@ -96,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "\u0110angKy.cshtml",
               "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\TaiKhoan\\\u0110angKy.cshtml",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\TaiKhoan\\\u0110angKy.cshtml",
@@ -109,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\dohoa\\Desktop\\picstudio-html\\index.html",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\picstudio-html\\index.html",
@@ -121,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ViewIndexCartController.cshtml",
               "DocumentMoniker": "C:\\Users\\dohoa\\Downloads\\ViewIndexCartController.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\ViewIndexCartController.cshtml",
@@ -133,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ViewDetailProductController.cshtml",
               "DocumentMoniker": "C:\\Users\\dohoa\\Downloads\\ViewDetailProductController.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\ViewDetailProductController.cshtml",
@@ -145,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Controllers\\HomeController.cs",
@@ -157,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\_ViewImports.cshtml",
@@ -169,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\_ViewStart.cshtml",
@@ -181,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\Shared\\_Layout.cshtml",
@@ -193,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiTapKiemTra01\\BaiTapKiemTra01\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTapKiemTra01\\Views\\Home\\Index.cshtml",
@@ -201,7 +200,8 @@
               "RelativeToolTip": "BaiTapKiemTra01\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T07:35:13.564Z"
+              "WhenOpened": "2024-09-14T07:35:13.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
