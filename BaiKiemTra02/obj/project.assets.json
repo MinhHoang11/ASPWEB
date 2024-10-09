@@ -4673,19 +4673,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\dohoa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra02\\BaiKiemTra02.csproj",
+      "projectUniqueName": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiKiemTra02\\BaiKiemTra02.csproj",
       "projectName": "BaiKiemTra02",
-      "projectPath": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra02\\BaiKiemTra02.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\ltw\\ASP_web\\BaiKiemTra02\\obj\\",
+      "projectPath": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiKiemTra02\\BaiKiemTra02.csproj",
+      "packagesPath": "C:\\Users\\dohoa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dohoa\\source\\repos\\ASPWEB\\ASPWEB\\BaiKiemTra02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dohoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4767,7 +4767,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

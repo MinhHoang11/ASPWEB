@@ -1,0 +1,50 @@
+﻿
+<div class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>Tên Khách Hàng</th>
+                <th>Địa Chỉ</th>
+                <th>Số Điện Thoại</th>
+                <th>Email</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.customer)
+            {
+                <tr>
+                    <td>@item.CustomerName</td>
+                    <td>@item.Address</td>
+                    <td>@item.PhoneNumber</td>
+                    <td>@item.Email</td>
+          
+                    <td>
+                        <a asp-action="Upsert" asp-route-id="@item.CustomerId">Edit</a> |
+                        <a asp-action="Details">Details</a> |
+                        <a href="#" onclick="confirmDelete(@item.CustomerId, $(this))">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="Customer" asp-action="Upsert" class="btn btn-primary">Thêm mới</a>
+</div>
+<script>
+    function confirmDelete(id, row) {
+        if (confirm("Ban co chac chan xoa customer co id la " + id + "?"))
+        {
+            xoa(id, $(row))
+        }
+
+    }
+    function xoa(id, row) {
+        $.ajax({
+            url: `Customer/Delete/${id}`,
+            type: "POST",
+            success: function (data) {
+                row.closest("tr").remove(); // Xóa dòng trong bảng (thẻ tr)
+            }
+        });
+    }
+</script>
