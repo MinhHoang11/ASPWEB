@@ -1,0 +1,186 @@
+﻿@model GioHangViewModel
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #1b2838;
+        color: #c7d5e0;
+    }
+
+    .container {
+        margin: 0 auto;
+        background-color: #2a2e35;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        max-width: 900px; /* Giới hạn chiều rộng cho dễ nhìn */
+    }
+
+    h2 {
+        text-align: center;
+        color: #ffffff; /* Màu chữ tiêu đề */
+    }
+
+    .table-bordered th, .table-bordered td {
+        border-color: #2a2e35;
+    }
+
+    .table thead th {
+        background-color: #2a2e35;
+        color: #ffffff; /* Màu chữ tiêu đề */
+    }
+
+    .table tbody tr {
+        background-color: #171a21;
+    }
+
+    .table tbody td {
+        color: #c7d5e0; /* Màu chữ cho nội dung bảng */
+    }
+
+    .product-name {
+        color: #ffa500; /* Màu chữ cho tên sản phẩm (cam) */
+    }
+
+    .product-price {
+        color: #00ff00; /* Màu chữ cho giá tiền (xanh lá) */
+        font-weight: bold; /* In đậm giá tiền */
+    }
+
+    .btn-outline-secondary, .btn-danger {
+        color: #c7d5e0;
+        border-color: #4a90e2;
+    }
+
+        .btn-outline-secondary:hover, .btn-danger:hover {
+            background-color: #4a90e2;
+            color: #ffffff;
+        }
+
+    .item-total, #cart-total {
+        color: #ff6b6b; /* Màu đỏ cho thành tiền */
+    }
+
+    .btn-checkout {
+        background-color: #ff6b6b; /* Màu nền cho nút Thanh Toán */
+        color: #ffffff; /* Màu chữ cho nút */
+        font-size: 1.2rem; /* Kích thước chữ lớn hơn */
+        font-weight: bold; /* In đậm chữ */
+        border-radius: 5px; /* Bo tròn góc nút */
+        padding: 15px; /* Khoảng cách giữa chữ và viền nút */
+        transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+    }
+
+        .btn-checkout:hover {
+            background-color: #e63946; /* Màu nền khi hover */
+        }
+</style>
+
+<div class="container my-5">
+    <h2 class="mb-4">Giỏ hàng của bạn</h2>
+    <div class="table-responsive">
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Hình ảnh</th>
+                    <th>Giá tiền</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int i = 1;
+                }
+                @foreach (var item in Model.DsGioHang)
+                {
+                    <tr data-price="@item.SanPham.Price">
+                        <td>@i</td>
+                        <td class="product-name">@item.SanPham.Name</td>
+                        <td><img src="@item.SanPham.ImageUrl" alt="Sản phẩm" class="img-fluid" width="100"></td>
+                        <td class="product-price">@item.SanPham.Price.ToString("N0") đ</td>
+                        <td>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a asp-action="Giam" asp-route-giohangId="@item.Id" class="btn btn-sm btn-outline-secondary minus">-</a>
+                                <input value="@item.Quantity" type="text" class="form-control text-center quantity mx-2" readonly>
+                                <a asp-action="Tang" asp-route-giohangId="@item.Id" class="btn btn-sm btn-outline-secondary plus">+</a>
+                            </div>
+                        </td>
+                        <td class="item-total">
+                            @(string.Format("{0:N0}", item.SanPham.Price * item.Quantity)) đ
+                        </td>
+                        <td>
+                            <a asp-action="Xoa" asp-route-giohangId="@item.Id" class="btn btn-sm btn-danger remove">Xóa</a>
+                        </td>
+                    </tr>
+                    i++;
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-center mt-4">
+        <h5><strong>Tổng cộng:</strong> <span id="cart-total" class="item-total"><b>@(string.Format("{0:N0}", Model.HoaDon.Total)) đ</b></span></h5>
+        <a class="btn btn-checkout w-100" asp-action="ThanhToan">Thanh Toán</a>
+    </div>
+</div>
+
+<script>
+    // Tăng số lượng
+    document.querySelectorAll('.plus').forEach(button => {
+        button.addEventListener('click', function (event) {
+            event.preventDefault();
+            let quantityInput = this.closest('td').querySelector('.quantity');
+            let currentQuantity = parseInt(quantityInput.value);
+            quantityInput.value = currentQuantity + 1;
+            updateRow(this);
+        });
+    });
+
+    // Giảm số lượng
+    document.querySelectorAll('.minus').forEach(button => {
+        button.addEventListener('click', function (event) {
+            event.preventDefault();
+            let quantityInput = this.closest('td').querySelector('.quantity');
+            let currentQuantity = parseInt(quantityInput.value);
+            if (currentQuantity > 1) {
+                quantityInput.value = currentQuantity - 1;
+                updateRow(this);
+            }
+        });
+    });
+
+    // Xóa sản phẩm
+    document.querySelectorAll('.remove').forEach(button => {
+        button.addEventListener('click', function (event) {
+            event.preventDefault();
+            this.closest('tr').remove();
+            updateTotal();
+        });
+    });
+
+    // Cập nhật thành tiền của từng hàng và tổng cộng
+    function updateRow(button) {
+        let row = button.closest('tr');
+        let price = parseInt(row.getAttribute('data-price'));
+        let quantity = parseInt(row.querySelector('.quantity').value);
+        let itemTotal = price * quantity;
+        row.querySelector('.item-total').textContent = new Intl.NumberFormat('vi-VN').format(itemTotal) + ' đ';
+        updateTotal();
+    }
+
+    // Cập nhật tổng cộng
+    function updateTotal() {
+        let total = 0;
+        document.querySelectorAll('tbody tr').forEach(row => {
+            let itemTotal = parseInt(row.querySelector('.item-total').textContent.replace(/[^0-9]/g, ''));
+            total += itemTotal;
+        });
+        document.getElementById('cart-total').textContent = new Intl.NumberFormat('vi-VN').format(total) + ' đ';
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Project</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Project.styles.css" asp-append-version="true" />
+    <style>
+        /* Header and Navbar styling */
+        .navbar {
+            background-color: #000;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            background-color: #333;
+            border-radius: 5px;
+        }
+
+        /* Product Item styling */
+        .product-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+            .product-item img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 15px;
+            }
+
+        .product-price {
+            font-size: 1.2rem;
+            color: red;
+            margin-bottom: 10px;
+        }
+
+        .product-action {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        /* Footer styling */
+        .footer {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .footer a {
+                color: #66c0f4;
+            }
+
+                .footer a:hover {
+                    color: #ffffff;
+                }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg shadow">
+            <div class="container d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="https://localhost:7014/">
+                    <img src="~/img/steam-icon.png" alt="Steam Icon" height="30" class="me-2">
+                    
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        @await Component.InvokeAsync("TheLoai")
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="pages/chinh-sach-mua-hang-1" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Chính sách mua hàng
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="categoryDropdown">
+                                <li><a class="dropdown-item" href="FilterByTheLoai">Filter By The Loai</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <partial name="_LoginPartial" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <main role="main" class="py-4">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-1">&copy; 2024 - Project</p>
+            <p><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

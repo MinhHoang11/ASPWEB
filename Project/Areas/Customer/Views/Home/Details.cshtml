@@ -1,0 +1,83 @@
+﻿@model GioHang
+<style>
+    .product-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .quantity-control {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .quantity-control button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .quantity-input {
+        width: 60px;
+        text-align: left;
+    }
+
+    .product-price {
+        font-size: 1.5rem;
+        color: #dc3545; /* Text-danger class equivalent */
+        font-weight: bold;
+    }
+</style>
+
+<div class="row">
+    <form method="post">
+        <!-- Product Image -->
+        <div class="col-md-6">
+            <img src="@Model.SanPham.ImageUrl" alt="Product Image" class="product-image">
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h1 class="product-title">@Model.SanPham.Name</h1>
+            <p class="product-description">@Model.SanPham.Description</p>
+        
+            <!-- Display formatted price -->
+            <h4 class="product-price">@string.Format("{0:N0} VNĐ", @Model.SanPham.Price)</h4>
+
+            <!-- Quantity Selector -->
+            <div class="quantity-control my-3">
+                <a class="btn btn-outline-secondary" onclick="decreaseQuantity()">-</a>
+                <input asp-for="@Model.Quantity" id="quantity" type="number" class="form-control quantity-input mx-2" id="quantity" value="1" readonly>
+                <a class="btn btn-outline-secondary" onclick="increaseQuantity()">+</a>
+            </div>
+
+            <!-- Add to Cart and Buy Now Buttons -->
+            <div class="row">
+                <div class="col-12">
+                    <button type ="submit" class="btn btn-primary">Thêm vào giỏ hàng</button>
+
+                </div>
+            </div>
+
+            <!-- Success Message -->
+            <div id="cart-message" class="alert alert-success mt-3 d-none">
+                Sản phẩm đã được thêm vào giỏ hàng thành công!
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Quantity Control Script -->
+<script>
+    function decreaseQuantity() {
+        var quantityInput = document.getElementById('quantity');
+        var value = parseInt(quantityInput.value);
+        if (value > 1) {
+            quantityInput.value = value - 1;
+        }
+    }
+
+    function increaseQuantity() {
+        var quantityInput = document.getElementById('quantity');
+        quantityInput.value = parseInt(quantityInput.value) + 1;
+    }
+</script>

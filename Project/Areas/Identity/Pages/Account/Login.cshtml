@@ -1,0 +1,127 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<style>
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #1b2838;
+    }
+
+    .login-box {
+        background-color: #171a21;
+        padding: 30px;
+        border-radius: 8px;
+        display: flex;
+        color: #c7d5e0;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 800px;
+        width: 100%;
+    }
+
+    .login-form {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .qr-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex: 1;
+    }
+
+    .qr-login img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .login-title {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        background-color: #2a2e35;
+        color: #c7d5e0;
+        border: none;
+        margin-bottom: 15px;
+    }
+
+    .form-control::placeholder {
+        color: #c7d5e0;
+    }
+
+    .btn-login {
+        background-color: #4a90e2;
+        border: none;
+        width: 100%;
+    }
+
+    .btn-login:hover {
+        background-color: #357abd;
+    }
+
+    .forgot-password {
+        color: #66c0f4;
+        text-align: center;
+        display: block;
+        margin-top: 15px;
+        font-size: 0.9rem;
+    }
+
+    .checkbox label {
+        color: #c7d5e0;
+    }
+</style>
+
+<div class="login-container">
+    <div class="login-box">
+        <!-- Login Form Section -->
+        <div class="login-form">
+            <h2 class="login-title">Đăng nhập</h2>
+            <form id="account" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                <div class="mb-3">
+                    <label for="Input.Email">Đăng nhập bằng tên tài khoản</label>
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Tên tài khoản" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Mật khẩu" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="checkbox mb-3">
+                    <label asp-for="Input.RememberMe" class="form-label">
+                        <input class="form-check-input" asp-for="Input.RememberMe" />
+                        Ghi nhớ tôi
+                    </label>
+                </div>
+                <button id="login-submit" type="submit" class="btn btn-lg btn-login">Đăng nhập</button>
+                <a class="forgot-password" asp-page="./ForgotPassword">Giúp với, tôi không thể đăng nhập</a>
+            </form>
+        </div>
+
+        <!-- QR Code Login Section -->
+        <div class="qr-login">
+            <h4>HOẶC ĐĂNG NHẬP BẰNG QR</h4>
+            <img src="~/img/qr-code-placeholder.png" alt="QR Code" />
+            <p>Đăng nhập bằng mã QR với ứng dụng Steam di động</p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

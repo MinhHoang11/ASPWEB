@@ -1,0 +1,106 @@
+﻿@page
+@model RegisterModel
+
+@{
+    ViewData["Title"] = "Đăng ký";
+}
+
+<style>
+    .register-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #1b2838;
+    }
+
+    .register-box {
+        background-color: #171a21;
+        padding: 30px;
+        border-radius: 8px;
+        color: #c7d5e0;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        width: 400px;
+        max-width: 90%;
+    }
+
+    .register-title {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-control, .form-select {
+        background-color: #2a2e35;
+        color: #c7d5e0;
+        border: none;
+        margin-bottom: 15px;
+    }
+
+    .form-control::placeholder, .form-select {
+        color: #c7d5e0;
+    }
+
+    .btn-register {
+        background-color: #4a90e2;
+        border: none;
+        width: 100%;
+    }
+
+    .btn-register:hover {
+        background-color: #357abd;
+    }
+
+    .text-danger {
+        color: #ff6b6b !important;
+    }
+</style>
+
+<div class="register-container">
+    <div class="register-box">
+        <h2 class="register-title">Tạo tài khoản mới</h2>
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+            <div class="mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Email" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Mật khẩu" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Xác nhận mật khẩu" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Input.Name" class="form-control" aria-required="true" placeholder="Tên" />
+                <span asp-validation-for="Input.Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Input.Address" class="form-control" aria-required="true" placeholder="Địa chỉ" />
+                <span asp-validation-for="Input.Address" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select">
+                    <option disabled selected>Chọn vai trò</option>
+                </select>
+                <span asp-validation-for="Input.Role" class="text-danger"></span>
+            </div>
+
+            <button id="registerSubmit" type="submit" class="btn btn-lg btn-register">Đăng ký</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
